@@ -1,7 +1,7 @@
 export const helloRoute = {
     path: '/hello',
     method: 'get',
-    handler: (req,res) => {
+    handler: async (req,res) => {
         res.send("Hello!");
     },
 }
