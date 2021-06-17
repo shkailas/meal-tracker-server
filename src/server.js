@@ -10,7 +10,7 @@ app.use(bodyParser.json())
 
 routes.forEach(route => {
     app[route.method](route.path, route.handler);
-})
+});
 
 const start = async () => {
     await db.connect('mongodb://localhost:27017');
