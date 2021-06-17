@@ -1,3 +1,3 @@
 # meal-tracker-server
-server for meal tracking project
+server for meal tracking project //
 run: npm run start
